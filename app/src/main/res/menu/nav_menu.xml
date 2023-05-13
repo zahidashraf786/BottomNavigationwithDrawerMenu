@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dis"
+            android:icon="@drawable/block_icn"
+            android:title="Block Diversion" />
+        <item
+            android:id="@+id/nav_noti"
+            android:icon="@drawable/notifications_icn"
+            android:title="Notification" />
+        <item
+            android:id="@+id/nav_support"
+            android:icon="@drawable/support_icn"
+            android:title="Support" />
+        <item
+            android:id="@+id/nav_Premium"
+            android:icon="@drawable/ic_premium"
+            android:title="Premium" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_faq"
+                android:icon="@drawable/faq_icn"
+                android:title="FAQ" />
+
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/settings_icn"
+                android:title="Settings" />
+
+        </menu>
+
+
+    </item>
+
+</menu>

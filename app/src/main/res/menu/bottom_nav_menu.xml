@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home"
+        android:icon="@drawable/ic_home"/>
+
+    <item
+        android:id="@+id/nav_block_list"
+        android:title="Block List"
+        android:icon="@drawable/ic_block_list"
+        />
+
+    <item
+        android:title=""/>
+
+    <item
+        android:id="@+id/nav_bottom_premium"
+        android:title="Premium"
+        android:icon="@drawable/ic_premium" />
+    <item
+        android:id="@+id/nav_help"
+        android:title="Help"
+        android:icon="@drawable/ic_help" />
+
+</menu>
